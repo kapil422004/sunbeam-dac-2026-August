@@ -107,7 +107,7 @@ SELECT * FROM students;
 
 -- to insert the data into the table use INSERT(DML) command
 -- syntax : INSERT INTO table_name VALUES(val1,val2,val3);
-INSERT INTO students VALUEs(1,'Seeta',90);
+INSERT INTO students VALUES(1,'Seeta',90);
 INSERT INTO students VALUES(2,'Geeta',95);
 INSERT INTO students VALUES(3,'Ram',80);
 INSERT INTO students VALUES(4,'Sham',95);
