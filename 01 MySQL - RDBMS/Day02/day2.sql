@@ -896,6 +896,8 @@ WHERE job != 'manager'
 OR
 job != 'analyst';
 
+--wrong condition for above question.
+
 
 SELECT  empno,ename,sal,job
 FROM emp
@@ -903,7 +905,7 @@ WHERE job != 'manager'
 AND
 job != 'analyst';
 
-
+-- correct
 
 
 
@@ -935,7 +937,7 @@ FROM emp
 ORDER BY ename;
 
 -- Expected output
- CLARK  |
+| CLARK  |
 | FORD   |
 | JAMES  |
 | JONES  |
